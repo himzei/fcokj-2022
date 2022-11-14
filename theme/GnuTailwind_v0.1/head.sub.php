@@ -44,27 +44,54 @@ if($config['cf_add_meta'])
 <title><?php echo $g5_head_title; ?></title>
 <link rel="stylesheet" href="<?php echo run_replace('head_css_url', G5_THEME_CSS_URL.'/'.(G5_IS_MOBILE ? 'mobile' : 'default').'.css?ver='.G5_CSS_VER, G5_THEME_URL); ?>">
 
+<!-- google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
 <!-- Tailwind CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css" integrity="sha512-y6ZMKFUQrn+UUEVoqYe8ApScqbjuhjqzTuwUMEGMDuhS2niI8KA3vhH2LenreqJXQS+iIXVTRL2iaNfJbDNA1Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="'.G5_JS_URL.'/font-awesome/css/font-awesome.min.css">
+
 <!-- Tailwind CSS JIT CDN -->
 <!-- <script src="https://unpkg.com/tailwindcss-jit-cdn"></script> -->
 <!-- Bootstrap icons -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
  <!-- AOS(Animation on scroll) -->
-   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <!-- Swiper -->
 <link href="<?php echo G5_THEME_URL ?>/assets/swiper/swiper-bundle.min.css" rel="stylesheet">
 <!-- Slick -->
 <link href="<?php echo G5_THEME_URL ?>/assets/slick/slick_theme.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-
- <link href="<?php echo G5_THEME_URL ?>/assets/theme.css" rel="stylesheet">
+<link href="<?php echo G5_THEME_URL ?>/assets/theme.css" rel="stylesheet">
 
 
 <!--[if lte IE 8]>
 <script src="<?php echo G5_JS_URL ?>/html5.js"></script>
 <![endif]-->
+
+<!-- tailwind css custom Colors -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          c_yellow: '#FFE9A0',
+          c_green : "#367E18", 
+          c_orange : "#F57328", 
+          c_red: "#CC3636"
+        },
+        fontfamily: {
+          noto : ["Noto Sans KR", "sans-serif"]
+        }
+      }
+    }
+  }
+</script>
+
+
 <script>
 // 자바스크립트에서 사용하는 전역변수 선언
 var g5_url       = "<?php echo G5_URL ?>";
@@ -77,6 +104,7 @@ var g5_sca       = "<?php echo isset($sca)?$sca:''; ?>";
 var g5_editor    = "<?php echo ($config['cf_editor'] && $board['bo_use_dhtml_editor'])?$config['cf_editor']:''; ?>";
 var g5_cookie_domain = "<?php echo G5_COOKIE_DOMAIN ?>";
 </script>
+
 <?php
 add_javascript('<script src="'.G5_JS_URL.'/jquery-1.12.4.min.js"></script>', 0);
 add_javascript('<script src="'.G5_JS_URL.'/jquery-migrate-1.4.1.min.js"></script>', 0);

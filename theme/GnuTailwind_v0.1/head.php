@@ -27,11 +27,11 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
     ?>
 </div>
 
-<section id="topbar" class="bg-indigo-500 text-white py-2 text-base">
+<section id="topbar" class="bg-c_orange text-white py-2 text-base">
 	<div class="container mx-auto flex justify-between px-4">
 		<div class="hidden md:block">
-			<i class="bi bi-envelope inline-flex items-center"><a href="mailto:info@gnutail.com"><span class="pl-1">info@gnutail.com</span></a></i>
-			<i class="bi bi-phone inline-flex items-center ml-4"><span> 02) 0000-0000</span></i>
+			<i class="bi bi-envelope inline-flex items-center"><a href="mailto:info@gnutail.com"><span class="pl-1">fcokj@daum.net</span></a></i>
+			<i class="bi bi-phone inline-flex items-center ml-4"><span> 054) 705-1828</span></i>
 		</div>
 		<div class="w-full md:w-1/2 flex justify-end items-center">
 			<?php if ($is_member) {  ?>

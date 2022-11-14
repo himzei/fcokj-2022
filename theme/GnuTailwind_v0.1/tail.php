@@ -21,12 +21,12 @@ if (G5_IS_MOBILE) {
 <!-- } 콘텐츠 끝 -->
 
 <!-- 하단 시작 { -->
-<div class="w-full bg-indigo-500 text-white">
+<div class="w-full bg-c_orange text-white">
     <div class="xl:px-40 pb-12 lg:px-20 md:px-10 sm:px-5 px-10">
         <div class="w-full pt-12 flex flex-col sm:flex-row space-y-2  justify-start">
             <div class="w-full sm:w-2/5 pr-6 flex flex-col space-y-4">
                <img src="<?php echo G5_THEME_IMG_URL ?>/ft_logo.png" class="w-1/3">
-                <p class="opacity-60">서울시 OO구 OOO로 OO<br>(OO동, OO아파트 OOO동 OOOO호)</p>
+                <p class="opacity-60">경북 경주시 외동읍 입실로1길 13-29 2층<br>(외동읍 입실리 1344-179)</p>
             </div>
             <div class="w-full sm:w-1/5 flex-1 sm:flex flex-col space-y-4">
                 <a class="opacity-60 w-1/2 inline-flex">회사소개</a>
@@ -50,7 +50,7 @@ if (G5_IS_MOBILE) {
             </div>
         </div>
         <div class="opacity-60 pt-2">
-            <p>© 2021 아이플레이스</p>
+            <p>© 2022 (사)외국인과 동행</p>
         </div>
     </div>
 </div>
@@ -78,7 +78,7 @@ if ($config['cf_analytics']) {
 ?>
 
 <!-- } 하단 끝 -->
- <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script src="<?php echo G5_THEME_URL ?>/assets/swiper/swiper-bundle.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
@@ -128,6 +128,8 @@ $(function() {
     font_resize("container", get_cookie("ck_font_resize_rmv_class"), get_cookie("ck_font_resize_add_class"));
 });
 </script>
+
+
 
 <?php
 include_once(G5_THEME_PATH."/tail.sub.php");
