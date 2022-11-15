@@ -10,8 +10,8 @@ include_once(G5_THEME_PATH.'/head.php');
 
 <!-- Container End -->
 <section id="main-top" class="relative w-full flex items-center font-noto">
-	<div class="container sm:px-4 text-white relative" data-aos="zoom-out" data-aos-delay="100" data-aos-duration="1000">
-		<h1 class="m-0 text-xl md:text-3xl font-extrabold leading-6 md:leading-8 "><span class="text-c_orange">외국인 근로자의 인권보호와 복지증진</span></h1>
+	<div class="container px-16 text-white relative" data-aos="zoom-out" data-aos-delay="100" data-aos-duration="1000">
+		<h1 class="text-xl md:text-3xl font-extrabold leading-6 md:leading-8 "><span class="text-c_orange">외국인 근로자의 인권보호와 복지증진</span></h1>
 		<h2 class="mt-2 mr-0 mb-10 ml-0 text-lg md:text-xl font-base mb-0 md:mb-4">외국인근로자가 한국 생활에 잘 적응하도록 지원</h2>
 		<div class="inline-flex items-center">
 			<a href="https://tailwindcss.com/" target="_blank" class="uppercase text-base md:text-lg tracking-wide inline-block py-1.5 px-3 rounded-md transition transition-duration-500 bg-c_orange hover:bg-indigo-400">시작하기</a>
@@ -108,7 +108,8 @@ include_once(G5_THEME_PATH.'/head.php');
 		<div class="text-center pb-8">
 			<h2 class="text-sm font-extrabold py-1 px-4 m-0 bg-indigo-100 text-c_orange inline-block uppercase rounded-xl">About</h2>
 			<h3 class="font-semibold text-xl sm:text-2xl mt-4 test-gray-900">Find Out More <span class="text-indigo-900">About Us</span></h3>
-			<p class="mt-4 mr-auto mb-0 ml-auto w-full lg:w-1/2 text-lg sm:text-xl text-gray-500">Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+			<p class="mt-4 mr-auto mb-0 ml-auto w-full lg:w-1/2 text-lg sm:text-xl text-gray-500">저희 법인은 한국에서 열심히 근무하는 외국인근로자의 인권보호와 복지증진을 도모하여 외국인근로자가 한국에서 안정된 생활의 틀을 마련하고 삶을 질을 향상시키고자 상담, 교육 등 다양한 프로그램을
+운영하고 있습니다.</p>
 		</div>
 		<div class="space-y-10 lg:space-y-0 grid grid-cols-1 lg:grid-cols-2 lg:gap-x-8">
 			<div class="" data-aos="fade-right" data-aos-delay="100">
@@ -117,29 +118,31 @@ include_once(G5_THEME_PATH.'/head.php');
 			<div class="content pt-4 lg:pt-0 flex flex-col justify-center" data-aos="fade-up" data-aos-delay="100">
 				<h3 class="text-lg leading-6 font-medium text-gray-900">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
 				<p class="text-base text-gray-500">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-				magna aliqua.
+				저희 법인은 한국에서 열심히 근무하는 외국인근로자의 인권보호와 복지증진을 도모하여 외국인근로자가 한국에서 안정된 생활의 틀을 마련하고 삶을 질을 향상시키고자 상담, 교육 등 다양한 프로그램을 운영하고 있습니다.
 				</p>
 				<ul>
 					<li class="flex items-start mb-8 first: mt-8">
 						<i class="bi bi-shop bg-transparent shadow text-3xl p-6 mr-4 text-c_orange rounded-full"></i>
 						<div>
-							<h5 class="text-lg leading-6 font-medium text-gray-900">Ullamco laboris nisi ut aliquip consequat</h5>
-							<p class="text-base text-gray-500">Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
+							<h5 class="text-lg leading-6 font-medium text-gray-900">CMS 납부</h5>
+							<p class="text-base text-gray-500">본 법인에 CMS 신청서를 작성하여 제출하여 주시면 익월부터
+자동으로 출금이 됩니다. (CMS 신청서)</p>
 						</div>
 					</li>
 					<li class="flex items-start mb-8">
 						<i class="bi bi-images bg-transparent shadow text-3xl p-6 mr-4 text-c_orange rounded-full"></i>
 						<div>
-							<h5 class="text-lg text-gray-900 font-medium">Magnam soluta odio exercitationem reprehenderi</h5>
-							<p class="text-base text-gray-500">Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</p>
+							<h5 class="text-lg text-gray-900 font-medium">개인후원</h5>
+							<p class="text-base text-gray-500">아래 후원계좌로 납부 후 연락을 주시면
+개인정보 및 입금내역을 확인 후 기부금 영수증을 발급하여 드립니다.
+후원계좌 : 농협 351-0608-4977-43 (사단법인 외국인과 동행)</p>
 						</div>
 					</li>
 				</ul>
 				<p class="last: mb-0 text-base text-gray-500">
-				Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-				velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-				culpa qui officia deserunt mollit anim id est laborum
+				아래 후원계좌로 납부 후 연락을 주시면
+개인정보 및 입금내역을 확인 후 기부금 영수증을 발급하여 드립니다.
+후원계좌 : 농협 351-0608-4977-43 (사단법인 외국인과 동행)
 				</p>
 			</div>
 		</div>

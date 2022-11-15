@@ -71,6 +71,13 @@ if($config['cf_add_meta'])
 <script src="<?php echo G5_JS_URL ?>/html5.js"></script>
 <![endif]-->
 
+<!-- 카카오 지도 API -->
+<script
+      type="text/javascript"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=d2d01f471f3d8fe462e969fad16d3d0c"
+></script>
+
+
 <!-- tailwind css custom Colors -->
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
